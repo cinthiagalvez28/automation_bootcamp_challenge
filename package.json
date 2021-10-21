@@ -1,0 +1,17 @@
+{
+  "name": "automation_challenge",
+  "version": "1.0.0",
+  "description": "Automation Bootcamp Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome ./pom/tests --reporter html:report.html",
+    "test-multi": "testcafe chrome:headless,edge:headless ./pom/tests"
+  },
+  "author": "cgalvez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.6.0",
+    "testcafe": "^1.16.1",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
