@@ -6,7 +6,7 @@ The purpose of these tests involves the sauceDemo web page. 7 different scenario
 * A. Login with a valid user
 * B. Login witn an invalid user
 * C. Logout from the home page.
-* D. Sort products by proce (low to high)
+* D. Sort products by price (low to high)
 * E. Add multiple items to the shopping cart
 * F. Add the specific product 'Sauce Labs Onesie' to the shopping cart
 * G. Complete a purchase
@@ -68,6 +68,6 @@ A report will be created in the root of the project once the tests have finished
 
 ## Built with:
 
-[Testcafe](https://testcafe.io/) - A Node. js end-to-end free and open source automation tool which is used to test web applications.
-[dotenv](https://www.npmjs.com/package/dotenv) - Zero-dependency module that loads environment variables from a .env file into process.env
-[testcafe-reporter-html](https://www.npmjs.com/package/testcafe-reporter-html) - Reporter
+* [Testcafe](https://testcafe.io/) - A Node. js end-to-end free and open source automation tool which is used to test web applications.
+* [dotenv](https://www.npmjs.com/package/dotenv) - Zero-dependency module that loads environment variables from a .env file into process.env
+* [testcafe-reporter-html](https://www.npmjs.com/package/testcafe-reporter-html) - Reporter
