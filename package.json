@@ -4,8 +4,9 @@
   "description": "Automation Bootcamp Challenge",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome ./pom/tests --reporter html:report.html",
-    "test-multi": "testcafe chrome:headless,edge:headless ./pom/tests"
+    "test-chrome": "testcafe chrome ./pom/tests --reporter html:report.html",
+    "test-firefox": "testcafe firefox ./pom/tests --reporter html:report.html",
+    "test-multibrowser": "testcafe chrome:headless,firefox:headless ./pom/tests --reporter html:report.html"
   },
   "author": "cgalvez",
   "license": "ISC",
