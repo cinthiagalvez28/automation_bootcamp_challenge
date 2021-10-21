@@ -60,7 +60,7 @@ npm run test-all-firefox
 ```
 If you want to run the headless mode, type:
 ```
-npm  run test-all-multibrowser-headless
+npm run test-all-multibrowser-headless
 ```
 A report will be created in the root of the project once the tests have finished. Open Chrome, drag & drop the report.html file in the browser and enjoy it. (If the report.html does not create or you have any error, try to install sudo npm install -g testcafe-reporter-html)
 
