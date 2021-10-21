@@ -1,15 +1,15 @@
 # Automation Bootcamp Challenge
 Technical Selection Challenge:  Automation - Front End Testing
 
-The purpose of these tests involves the sauceDemo web page. 7 different scenarios were coded, these are:
+The purpose of these tests involves the sauceDemo web page. 7 different scenarios were coded:
 
-A. Login with a valid user
-B. Login witn an invalid user
-C. Logout from the home page.
-D. Sort products by proce (low to high)
-E. Add multiple items to the shopping cart
-F. Add the specific product 'Sauce Labs Onesie' to the shopping cart
-G. Complete a purchase
+-A. Login with a valid user
+-B. Login witn an invalid user
+-C. Logout from the home page.
+-D. Sort products by proce (low to high)
+-E. Add multiple items to the shopping cart
+-F. Add the specific product 'Sauce Labs Onesie' to the shopping cart
+-G. Complete a purchase
 
 ## Instalation
 
@@ -30,7 +30,7 @@ Also, you will need to install the reporter in order to see the results of the t
 sudo npm install testcafe-reporter-html 
 ```
 
-Finally you will need a .env file in the root of the project. Create the file, name it .env, paste and save the following as content:
+Finally, you will need a .env file in the root of the project. Create the file, name it .env, paste and save the following as content:
 ```
 //URLS
 BASE_URL=https://www.saucedemo.com/
