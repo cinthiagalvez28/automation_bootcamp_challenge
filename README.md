@@ -11,7 +11,7 @@ The purpose of these tests involves the sauceDemo web page. 7 different scenario
 * F. Add the specific product 'Sauce Labs Onesie' to the shopping cart
 * G. Complete a purchase
 
-## Instalation
+## Installation
 
 Download the zip, unzipped the content, go to the automation_bootcamp_challenge main folder and once inside open a new terminal and type:
 ```
